@@ -6,7 +6,7 @@ const router = useRouter()
 
 <template>
   <div class="container">
-    <div class="menu-item" @click="router.push('/toggle-case')">大小写转换</div>
+    <div class="menu-item" @click="router.push('/toggle-case')">变量名转换</div>
     <div class="menu-item" @click="router.push('/rem-compute')">rem计算</div>
     <div class="menu-item" @click="router.push('/api-test')">接口在线调用</div>
   </div>

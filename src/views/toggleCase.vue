@@ -22,6 +22,7 @@ const handleExchange = () => {
     split = '-'
   }
   result.value = userInput.value
+    .replace(/(?<![ _\-.])[A-Z]/g, (match, offset) => `${offset > 0 ? '_' : ''}${match.toLowerCase()}`)
     .split(/[ _\-.]/)
     .filter(Boolean)
     .map((word, index) => {
