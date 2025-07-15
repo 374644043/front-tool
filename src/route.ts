@@ -19,6 +19,10 @@ const routes = [
     path: '/api-test',
     component: () => import('./views/apiTest.vue'),
   },
+  {
+    path: '/code-trim',
+    component: () => import('./views/codeTrim.vue'),
+  },
 ]
 
 const router = createRouter({
