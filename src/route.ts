@@ -23,6 +23,10 @@ const routes = [
     path: '/code-trim',
     component: () => import('./views/codeTrim.vue'),
   },
+  {
+    path: '/git-commit',
+    component: () => import('./views/gitCommit.vue'),
+  },
 ]
 
 const router = createRouter({

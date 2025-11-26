@@ -10,6 +10,7 @@ const router = useRouter()
     <div class="menu-item" @click="router.push('/rem-compute')">rem计算</div>
     <div class="menu-item" @click="router.push('/api-test')">接口在线调用</div>
     <div class="menu-item" @click="router.push('/code-trim')">代码清理</div>
+    <div class="menu-item" @click="router.push('/git-commit')">Git提交信息生成</div>
   </div>
 </template>
 
